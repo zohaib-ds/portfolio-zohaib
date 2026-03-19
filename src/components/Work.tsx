@@ -5,37 +5,27 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "Solid Starters",
-    category: "Low-Code Platform",
-    tools: "Angular, Next.js, NestJS, MongoDB",
-    image: "/images/Solidx.png",
+    title: "OpenSky Network Data Pipeline",
+    category: "Web Scraping / Data Pipeline",
+    tools:
+      "Live data pipeline and dashboard built with Python, APIs, DuckDB, Parquet, and Streamlit.",
+    image: "/images/Gemini_Generated_Image_oylkyaoylkyaoylk.png",
   },
   {
-    title: "Radix",
-    category: "E-Commerce",
-    tools: "Angular, Next.js, NestJS, CMS",
-    image: "/images/radix.png",
+    title: "Wallmart Data Scraper Extension",
+    category: "ETL Pipelines / Web Scraping",
+    tools:
+      "Python, APIs, ETL Pipelines, Data Cleaning, Transformation, Batch Processing",
+    image: "/images/Untitled design (69).png",
   },
   {
-    title: "Bond Cancellation",
-    category: "Import-Export Automation",
-    tools: "Angular, Next.js, NestJS, Workflows",
-    image: "/images/bond.png",
-  },
-  {
-    title: "Sapphire",
-    category: "CRM Platform",
-    tools: "AngularJS, NestJS, PostgreSQL",
+    title: "Orderly POS System",
+    category: "Full Stack / Data Systems",
+    tools:
+      "React, Node.js, APIs, Inventory & Analytics Modules, Backend Logic",
     image: "/images/sapphire.png",
   },
-  {
-    title: "Mpro",
-    category: "Insurance Platform",
-    tools: "React.js, Node.js, Microservices",
-    image: "/images/Maxlife.png",
-  },
 ];
-
 const Work = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isAnimating, setIsAnimating] = useState(false);
