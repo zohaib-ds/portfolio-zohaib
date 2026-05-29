@@ -5,83 +5,85 @@ const Career = () => {
     <div className="career-section section-container">
       <div className="career-container">
         <h2>
-          My career <span>&</span>
+          Career <span>&</span>
           <br /> experience
         </h2>
+
         <div className="career-info">
           <div className="career-timeline">
             <div className="career-dot"></div>
           </div>
 
-          {/* 1️⃣ eCommerce Data Engineer */}
+          {/* 1️⃣ S&N Textiles */}
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Data Engineer</h4>
-                <h5>eCom Sellers · Full Time</h5>
-              </div>
-              <h3>Aug 2025 — Nov 2025</h3>
-            </div>
-            <p>
-              Built and maintained end-to-end data pipelines for an eCommerce intelligence platform.
-              Handled large-scale Walmart data scraping, ingestion, cleaning, and transformation into
-              analytics-ready datasets. Worked with ETL pipelines, PostgreSQL, and backend services
-              to ensure reliable data flow. Contributed to web app and browser extension features
-              that surfaced insights directly to users.
-            </p>
-          </div>
-
-          {/* 2️⃣ Orderly Project */}
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Full Stack & Data Systems</h4>
-                <h5>Orderly (POS Platform)</h5>
-              </div>
-              <h3>Nov 2025 — Present</h3>
-            </div>
-            <p>
-              Working on a cloud-based POS system for restaurants, handling data systems,
-              backend logic, and platform features. Built modules for inventory, vendor
-              management, accounting, and analytics dashboards. Contributed to marketplace
-              features, delivery workflows, and scalable architecture for real-world usage.
-            </p>
-          </div>
-
-          {/* 3️⃣ ERP / Textile */}
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Data Engineer</h4>
-                <h5>S&N Textiles · Part-time</h5>
+                <h4>Sr. Data Engineer</h4>
+                <h5>S&N Textiles Private Ltd · Part-time</h5>
               </div>
               <h3>Mar 2025 — Present</h3>
             </div>
             <p>
-              Working on ERP data systems for a textile manufacturing company. Structured
-              and managed data across inventory, accounting, CRM, and HR modules. Helped
-              translate business workflows into scalable data models using Odoo, improving
-              data visibility and operational tracking.
+              Working remotely on ERP data systems for a textile manufacturing
+              company. Designing and organizing operational data across
+              inventory, accounting, CRM, HR, sales, and factory workflows.
+              Helping map business processes into Odoo ERP structures to improve
+              reporting, inventory tracking, cost records, and decision-making.
             </p>
           </div>
 
-          {/* 4️⃣ Walmart Scraper System */}
+          {/* 2️⃣ DevelopersHub */}
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Data Engineering Project</h4>
-                <h5>Walmart Scraper System</h5>
+                <h4>Data Engineer & Analyst</h4>
+                <h5>DevelopersHub Corporation · Internship</h5>
               </div>
-              <h3>2026 — Ongoing</h3>
+              <h3>Apr 2026 — Present</h3>
             </div>
             <p>
-              Building a scalable data scraping system combining Python and a Chrome extension
-              to collect large-scale Walmart product data. Designed a queue-based pipeline
-              with deduplication, automated crawling, and real-time data storage. Currently
-              optimizing performance, anti-block strategies, and preparing for analytics use cases.
+              Working as a Data Engineer and Analyst Intern, focused on
+              practical analytics workflows, data processing, reporting, and
+              business-facing data solutions. Supporting data engineering tasks,
+              analysis, and structured problem solving for real-world projects.
             </p>
           </div>
 
+          {/* 3️⃣ Tekvion Solutions */}
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>MERN Stack Developer</h4>
+                <h5>Tekvion Solutions · Internship</h5>
+              </div>
+              <h3>Jan 2026 — Present</h3>
+            </div>
+            <p>
+              Working as a Full-Stack Developer specializing in the MERN stack
+              and Bubble.io. Building scalable web and mobile applications for
+              international clients, covering responsive React interfaces,
+              Node.js APIs, MongoDB-backed systems, and deployable digital
+              products.
+            </p>
+          </div>
+
+          {/* 4️⃣ eCom Sellers */}
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Data Engineer</h4>
+                <h5>eCom Sellers · Contract</h5>
+              </div>
+              <h3>Aug 2025 — Nov 2025</h3>
+            </div>
+            <p>
+              Worked on a data-driven eCommerce intelligence platform. Designed,
+              fixed, and monitored ETL pipelines for Walmart marketplace data,
+              including scraping, ingestion, cleaning, validation, normalization,
+              PostgreSQL storage, API integrations, and analytics-ready outputs
+              for web app and browser extension features.
+            </p>
+          </div>
         </div>
       </div>
     </div>

@@ -6,58 +6,77 @@ const Contact = () => {
     <div className="contact-section section-container" id="contact">
       <div className="contact-container">
         <h3>Contact</h3>
+
         <div className="contact-flex">
           <div className="contact-box">
             <h4>Email</h4>
             <p>
-              <a href="mailto:your_email@domain.com" data-cursor="disable">
+              <a
+                href="mailto:ds.zohaibzeeshan@gmail.com"
+                data-cursor="disable"
+              >
                 ds.zohaibzeeshan@gmail.com
               </a>
             </p>
+
             <h4>Education</h4>
-            <p>O/A level Student</p>
+            <p>Bahria College Islamabad</p>
+
+            <h4>Availability</h4>
+            <p>Open to data engineering, analytics, and full-stack projects.</p>
           </div>
+
           <div className="contact-box">
             <h4>Social</h4>
+
             <a
               href="https://github.com/zohaib-ds"
               target="_blank"
+              rel="noopener noreferrer"
               data-cursor="disable"
               className="contact-social"
             >
               Github <MdArrowOutward />
             </a>
+
             <a
               href="https://www.linkedin.com/in/zohaib-ds/"
               target="_blank"
+              rel="noopener noreferrer"
               data-cursor="disable"
               className="contact-social"
             >
               Linkedin <MdArrowOutward />
             </a>
+
             <a
               href="https://x.com/zohaib_ds"
               target="_blank"
+              rel="noopener noreferrer"
               data-cursor="disable"
               className="contact-social"
             >
               Twitter <MdArrowOutward />
             </a>
+
             <a
               href="https://www.kaggle.com/mzohaibzeeshan"
               target="_blank"
+              rel="noopener noreferrer"
               data-cursor="disable"
               className="contact-social"
             >
               Kaggle <MdArrowOutward />
             </a>
           </div>
+
           <div className="contact-box">
             <h2>
-              Designed and Developed <br /> by <span>Zohaib</span>
+              Designed and Developed <br /> by <span>Zohaib Zeeshan</span>
             </h2>
+
             <h5>
-              <MdCopyright /> 2025
+              <MdCopyright /> 2026
             </h5>
           </div>
         </div>

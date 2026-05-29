@@ -2,28 +2,37 @@ import { useState, useCallback } from "react";
 import "./styles/Work.css";
 import WorkImage from "./WorkImage";
 import { MdArrowBack, MdArrowForward } from "react-icons/md";
-
 const projects = [
   {
     title: "OpenSky Network Data Pipeline",
-    category: "Web Scraping / Data Pipeline",
+    category: "Data Engineering / Live Pipeline",
     tools:
-      "Live data pipeline and dashboard built with Python, APIs, DuckDB, Parquet, and Streamlit.",
+      "Python, REST APIs, DuckDB, Parquet, Streamlit, KPI Dashboard, Automation, Partitioned Storage",
     image: "/images/Gemini_Generated_Image_oylkyaoylkyaoylk.png",
   },
+
   {
-    title: "Wallmart Data Scraper Extension",
-    category: "ETL Pipelines / Web Scraping",
+    title: "ERP Data Model for Textile Operations",
+    category: "Data Architecture / ERP Systems",
     tools:
-      "Python, APIs, ETL Pipelines, Data Cleaning, Transformation, Batch Processing",
+      "Odoo ERP, PostgreSQL, Data Modeling, Inventory Workflows, Accounting Data, CRM, HR, Operational Reporting",
+    image: "/images/sapphire.png",
+  },
+
+  {
+    title: "MERN & SaaS Applications",
+    category: "Full Stack Development",
+    tools:
+      "React, Node.js, MongoDB, REST APIs, Bubble.io, Responsive UI, Web & Mobile Applications",
     image: "/images/Untitled design (69).png",
   },
+
   {
-    title: "Orderly POS System",
-    category: "Full Stack / Data Systems",
+    title: "eCommerce Intelligence Data Pipeline",
+    category: "Web Scraping / ETL Engineering",
     tools:
-      "React, Node.js, APIs, Inventory & Analytics Modules, Backend Logic",
-    image: "/images/sapphire.png",
+      "Python, PostgreSQL, ETL Pipelines, Data Validation, Walmart Marketplace Data, Analytics Workflows",
+    image: "/images/Gemini_Generated_Image_oylkyaoylkyaoylk.png",
   },
 ];
 const Work = () => {
